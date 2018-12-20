@@ -1,5 +1,5 @@
 body{
-  padding: 0 20% 0 20%;
+  padding: 0 10% 0 10%;
 }
 
 p{
@@ -12,8 +12,11 @@ p{
 }
 
 div{
-  border: 20px solid #bdc3c7;
-  padding: 0 3% 0 3%;
+  border: 20px solid;
+  padding: 8% 14% 0 14%;
+  border-image: url("https://openclipart.org/download/225532/VineBorder.svg") stretch;
+  border-image-width: 100% 100%;
+  border-image-slice: 50%;
 }
 
 h1{
