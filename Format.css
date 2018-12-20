@@ -1,15 +1,40 @@
 body{
   padding: 0 20% 0 20%;
 }
+
 p{
   font-family: source sans pro;
-  /*text-align: center;*/
 }
+
+.FirstP{
+  border-left: 5px solid #bdc3c7;
+  padding-left: 1%;
+}
+
 div{
   border: 20px solid #bdc3c7;
-  padding: 0 3% 0 3%; 
+  padding: 0 3% 0 3%;
 }
+
 h1{
-  color: #2c3eff;
-  align
+  color: #2c9eff;
+  font-size: 15px;
+  font-family: source sans pro;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h2{
+  color: #2c3e50;
+  font-size: 30px;
+  font-family: source sans pro;
+}
+
+hr{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
