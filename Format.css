@@ -13,11 +13,11 @@ p{
 }
 
 div{
-  border: 20px solid;
+  border: 20px solid transparent;
   padding: 8% 14% 0 14%;
-  border-image: url("https://openclipart.org/download/225532/VineBorder.svg");
+  border-image: url("https://openclipart.org/download/225532/VineBorder.svg") stretch;
   border-image-width: 100% 100%;
-  border-image-slice: 50%;
+  border-image-slice: 50% 49.5% 50% 50%;
 }
 
 h1{
